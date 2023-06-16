@@ -1,0 +1,24 @@
+﻿<Window x:Class="WpfApplication.InsertPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication"
+        mc:Ignorable="d"
+        Title="InsertPage" Height="300" Width="300">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="20,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="nl-nl" Text="Voornaam"/><LineBreak/><Run Language="nl-nl"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="20,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="nl-nl" Text="Achternaam"/></TextBlock>
+        <TextBox HorizontalAlignment="Left" Margin="107,64,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" RenderTransformOrigin="-0.117,-1.668" TextChanged="TextBox_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Margin="107,105,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="insertBtn" Content="Toevoegen" HorizontalAlignment="Center" Margin="0,254,0,0" VerticalAlignment="Top" Click="insertBtn_Click"/>
+
+
+        <TextBlock HorizontalAlignment="Left" Margin="20,188,0,0" TextWrapping="Wrap" Text="Autheur" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="20,216,0,0" TextWrapping="Wrap" Text="Boeknaam" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="107,187,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" RenderTransformOrigin="-0.117,-1.668" TextChanged="TextBox_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Margin="107,216,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="insertBtn1" Content="Toevoegen" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,142,0,0" Click="insertBtn_Click_1"/>
+
+    </Grid>
+</Window>
